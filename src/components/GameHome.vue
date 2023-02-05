@@ -1,7 +1,9 @@
 <template>
-  <div class="text-center items-center jutify-center h-screen w-full flex">
+  <div
+    class="text-center items-center jutify-center min-h-screen h-full w-full flex"
+  >
     <div class="w-full">
-      <div class="w-3/5 pt-16 pb-16 rounded bg-white m-auto shadow-lg">
+      <div class="w-5/6 sm:w-3/5 pt-16 pb-16 rounded bg-white m-auto shadow-lg">
         <img src="/imgs/icon.png" alt="" class="w-48 mx-auto" />
         <h1 class="text-2xl lowercase font-extrabold">Jokenpo Game</h1>
         <h2 class="text-sm mt-2">rock, paper or scissor?</h2>
