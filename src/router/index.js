@@ -22,15 +22,15 @@ const router = createRouter({
   ],
 });
 
-router.beforeEach((to, from, next) => {
-  console.log(to);
-  console.log(from);
-  console.log(next);
-  if (to.name !== "home" && !from.name) {
-    // next({ name: "home" });
-  } else {
-    next();
-  }
-});
+// router.beforeEach((to, from, next) => {
+//   console.log(to);
+//   console.log(from);
+//   console.log(next);
+//   // if (to.name !== "home" && !from.name) {
+//   //   // next({ name: "home" });
+//   // } else {
+//   //   next();
+//   // }
+// });
 
 export default router;
